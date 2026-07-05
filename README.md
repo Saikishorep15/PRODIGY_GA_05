@@ -1,33 +1,50 @@
-# 🎨 PRODIGY_GA_05 – Neural Style Transfer using PyTorch
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-blue.svg">
-  <img src="https://img.shields.io/badge/PyTorch-Deep%20Learning-red.svg">
-  <img src="https://img.shields.io/badge/Computer%20Vision-Neural%20Style%20Transfer-green.svg">
-  <img src="https://img.shields.io/badge/Status-Completed-success.svg">
-  <img src="https://img.shields.io/badge/Internship-Prodigy%20InfoTech-orange.svg">
-</p>
+# 🎨 Neural Style Transfer using PyTorch
 
-## 📌 Overview
+### 🚀 Prodigy GenAI Internship — Task 05
 
-This project implements **Neural Style Transfer (NST)** using **PyTorch**. The application combines the content of one image with the artistic style of another to generate a stylized output image using a pre-trained deep learning model.
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-Deep_Learning-red)
+![Computer Vision](https://img.shields.io/badge/Computer%20Vision-Neural%20Style%20Transfer-green)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Internship](https://img.shields.io/badge/Internship-Prodigy_InfoTech-orange)
 
-This project was developed as **Task-05** for the **Prodigy InfoTech Generative AI Internship**.
+</div>
 
-## 🎯 Objective
+---
 
-Develop a Neural Style Transfer application capable of applying the artistic style of one image to the content of another image using deep learning techniques.
+# 📌 Project Overview
 
-## ✨ Features
+This project implements **Neural Style Transfer (NST)** using **PyTorch**. The application combines the **content of one image** with the **artistic style of another image** to generate a stylized output image using a pre-trained deep learning model.
 
-- Neural Style Transfer
-- Pre-trained VGG19 Feature Extractor
-- Content and Style Image Processing
-- Automatic Output Image Generation
-- Clean Project Structure
-- Beginner-Friendly Implementation
+This project was developed as **Task-05** of the **Prodigy InfoTech Generative AI Internship**.
 
-## 📂 Project Structure
+---
+
+# 🎯 Objective
+
+Develop a **Neural Style Transfer** application capable of applying the artistic style of one image to the content of another image using deep learning techniques.
+
+---
+
+# ✨ Features
+
+✔ Neural Style Transfer
+
+✔ Pre-trained VGG19 Feature Extractor
+
+✔ Content & Style Image Processing
+
+✔ Automatic Stylized Image Generation
+
+✔ Organized Project Structure
+
+✔ Beginner-Friendly Implementation
+
+---
+
+# 📂 Project Structure
 
 ```text
 PRODIGY_GA_05
@@ -47,35 +64,45 @@ PRODIGY_GA_05
 ├── README.md
 └── .gitignore
 ```
-## 🛠️ Technologies Used
 
-- Python
-- PyTorch
-- TorchVision
-- Pillow
-- NumPy
-- Matplotlib
+---
 
-## ⚙️ Installation
+# 🛠️ Technology Stack
 
-Clone the repository
+| Technology | Purpose |
+|------------|---------|
+| 🐍 Python | Programming Language |
+| 🔥 PyTorch | Deep Learning Framework |
+| 🖼️ TorchVision | Image Processing |
+| 🖼️ Pillow | Image Handling |
+| 🔢 NumPy | Numerical Computing |
+| 📊 Matplotlib | Visualization |
+
+---
+
+# ⚙️ Installation
+
+## 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/<your-github-username>/PRODIGY_GA_05.git
+git clone https://github.com/Saikishorep15/PRODIGY_GA_05.git
 ```
 
-Navigate to the project folder
+## 2️⃣ Navigate into the Project Folder
 
 ```bash
 cd PRODIGY_GA_05
 ```
 
-Install dependencies
+## 3️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
-## ▶️ Usage
+
+---
+
+# ▶️ Usage
 
 Place your images inside:
 
@@ -84,19 +111,25 @@ images/content/content.jpg
 images/style/style.jpg
 ```
 
-Run the application
+Run the application:
 
 ```bash
 python app.py
 ```
-## 📁 Output
+
+---
+
+# 📁 Output
 
 The generated stylized image will be saved in:
 
 ```text
 images/output/stylized_image.jpg
 ```
-## 💻 Sample Console Output
+
+---
+
+# 💻 Sample Console Output
 
 ```text
 ============================================================
@@ -111,9 +144,12 @@ Style Transfer Completed Successfully!
 Output saved to:
 images/output/stylized_image.jpg
 ```
-## 📚 Concepts Covered
 
-- Neural Style Transfer
+---
+
+# 📚 Concepts Covered
+
+- Neural Style Transfer (NST)
 - Transfer Learning
 - Feature Extraction
 - Deep Learning
@@ -121,29 +157,60 @@ images/output/stylized_image.jpg
 - Image Processing
 - PyTorch
 
-## 🚀 Future Improvements
+---
 
-- Interactive GUI using Streamlit
-- Multiple Style Image Support
-- High-Resolution Image Processing
-- Adjustable Style Strength
-- Batch Processing
-- GPU Optimization
+# 🚀 Future Enhancements
 
-## 🎓 Internship Details
+🔹 Interactive Streamlit Web Application
+
+🔹 Multiple Style Image Support
+
+🔹 High-Resolution Image Processing
+
+🔹 Adjustable Style Strength
+
+🔹 Batch Image Processing
+
+🔹 GPU Optimization
+
+---
+
+# 🎓 Internship Information
 
 **Organization:** Prodigy InfoTech
 
-**Domain:** Generative AI Internship
+**Internship:** Generative AI Internship
 
 **Task:** Task-05 – Neural Style Transfer
 
-## 👨‍💻 Author
+---
 
-**Meghana R**
+# 👨‍💻 Developer
 
-GitHub: https://github.com/rmeghana375-lab
+**SaiKishore P**
 
-## 📄 License
+Information Science & Engineering Student
 
-This project is developed for educational purposes as part of the **Prodigy InfoTech Generative AI Internship**.
+Jain Institute of Technology, Davangere
+
+**GitHub:**  
+https://github.com/Saikishorep15
+
+**Repository:**  
+https://github.com/Saikishorep15/PRODIGY_GA_05
+
+---
+
+# 📄 License
+
+This project is developed for **learning and educational purposes** as part of the **Prodigy InfoTech Generative AI Internship**.
+
+---
+
+<div align="center">
+
+## ⭐ Task-05 Successfully Completed ⭐
+
+### Built with ❤️ using Python, PyTorch & Neural Style Transfer
+
+</div>
